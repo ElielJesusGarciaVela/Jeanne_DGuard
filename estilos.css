@@ -16,15 +16,30 @@ a {
     text-decoration: none;
 }
 
+.vista-inicial{
+    background-image: url(images/pexels-pille-kirsi-222198-1116984.jpg);
+    background-color: rgb(209, 209, 209,0.1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+}
+
 header {
-    background-color: #a257b9;
+    position: sticky;
     color: white;
     padding: 10px 0;
     text-align: center;
+    height: 100vh;
+    margin-top: 0%;
 }
 
-header .logo h1 {
-    margin: 0;
+header .logo{
+    margin: auto;
+    padding-bottom: 10px;
+    width: 50%;
+    background-color: rgb(196, 196, 196,0.7);
+    border-radius: 20px;
+    position: sticky;
 }
 
 nav ul {
@@ -48,7 +63,8 @@ section {
 }
 
 #hero {
-    background-color: #a16db1;
+    background-color: hsl(286, 30%, 56%);
+    border-radius: 10px;
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -74,6 +90,7 @@ section {
 }
 
 #about, #features, #contact {
+    border-radius: 10px;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -110,7 +127,7 @@ form button:hover {
 }
 
 footer {
-    background-color: #005f73;
+    background-color: hsl(286, 30%, 56%);
     color: white;
     text-align: center;
     padding: 10px 0;
