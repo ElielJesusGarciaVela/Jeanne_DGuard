@@ -1,78 +1,85 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Aplicación de prevención contra la violencia de género"
-    />
-    <title>Proyecto Contra la violencia de género</title>
-    <link rel="stylesheet" href="estilos.css" />
-  </head>
-  <body>
-    <div class="vista-inicial">
-      <header>
-        <div class="logo">
-          <h1>Jeanne D'Guard</h1>
-          <nav>
-            <ul>
-              <li><a href="#about">Sobre el Proyecto</a></li>
-              <li><a href="#features">Características</a></li>
-              <li><a href="#contact">Contacto</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="registrate">
-            <h1>Registrate</h1>
-        </div>
-      </header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aplicación de prevención contra la violencia de género" />
+  <title>Proyecto Contra la violencia de género</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="shortcut icon" href="images/LaPeonia.PNG">
+</head>
+
+<body>
+  <div class="vista-inicial">
+    <header>
+      <div class="logo">
+        <h1>Jeanne D'Guard</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">Sobre el Proyecto</a></li>
+            <li><a href="#features">Características</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="registrate">
+        <h1>Registrate</h1>
+      </div>
+    </header>
+  </div>
+  <main class="contenido-inicial"></main>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Protegete en todo momento</h2>
+      <p>Una aplicación innovadora para detectar situaciones peligrosas y pedir ayuda al instante.</p>
+      <div class="boton-contacto">
+        <a href='#contact'>Contáctanos</a>
+      </div>
     </div>
-    <main class="contenido-inicial"></main>
+  </section>
 
-    <section id="hero">
-        <div class="hero-content">
-            <h2>Protegete en todo momento</h2>
-            <p>Una aplicación innovadora para detectar situaciones peligrosas y pedir ayuda al instante.</p>
-            <button onclick="window.location.href='#contact'">Contáctanos</button>
-        </div>
-    </section>
+  <section id="about">
+    <h2>Sobre el Proyecto</h2>
+    <p>El proyecto tiene como objetivo crear una aplicación que utilice algoritmos de detección de patrones y
+      situaciones de riesgo para ayudar a las mujeres a escapar de situaciones de maltrato.</p>
+    <p>La aplicación está diseñada para enviar una alerta a la policía, compartir la ubicación del usuario y activar una
+      alarma en el móvil en caso de emergencia.</p>
+  </section>
 
-    <section id="about">
-        <h2>Sobre el Proyecto</h2>
-        <p>El proyecto tiene como objetivo crear una aplicación que utilice algoritmos de detección de patrones y situaciones de riesgo para ayudar a las mujeres a escapar de situaciones de maltrato.</p>
-        <p>La aplicación está diseñada para enviar una alerta a la policía, compartir la ubicación del usuario y activar una alarma en el móvil en caso de emergencia.</p>
-    </section>
+  <section id="features">
+    <h2>Características</h2>
+    <div class="feature-item">
+      <h3>Detección de situaciones peligrosas</h3>
+      <p>La app identifica patrones de comportamiento y situaciones que pueden representar un riesgo.</p>
+    </div>
+    <div class="feature-item">
+      <h3>Alerta inmediata a la policía</h3>
+      <p>En un solo clic, se puede enviar la ubicación exacta a las autoridades locales.</p>
+    </div>
+    <div class="feature-item">
+      <h3>Alarma en el móvil</h3>
+      <p>En caso de emergencia, la aplicación activa una alarma para alertar a quienes te rodean.</p>
+    </div>
+  </section>
 
-    <section id="features">
-        <h2>Características</h2>
-        <div class="feature-item">
-            <h3>Detección de situaciones peligrosas</h3>
-            <p>La app identifica patrones de comportamiento y situaciones que pueden representar un riesgo.</p>
-        </div>
-        <div class="feature-item">
-            <h3>Alerta inmediata a la policía</h3>
-            <p>En un solo clic, se puede enviar la ubicación exacta a las autoridades locales.</p>
-        </div>
-        <div class="feature-item">
-            <h3>Alarma en el móvil</h3>
-            <p>En caso de emergencia, la aplicación activa una alarma para alertar a quienes te rodean.</p>
-        </div>
-    </section>
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>Si estás interesada en saber más o quieres colaborar con el proyecto, ¡contáctanos!</p>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo electrónico" required>
+      <textarea placeholder="Tu mensaje" required></textarea>
+      <div class="boton-enviar">
+        <button type="submit" class="btn-animado">Enviar</button>
+      </div>
+    </form>
+  </section>
 
-    <section id="contact">
-        <h2>Contacto</h2>
-        <p>Si estás interesada en saber más o quieres colaborar con el proyecto, ¡contáctanos!</p>
-        <form>
-            <input type="text" placeholder="Tu nombre" required>
-            <input type="email" placeholder="Tu correo electrónico" required>
-            <textarea placeholder="Tu mensaje" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+  <footer>
+    <p>&copy; 2025 Proyecto Ayuda Rápida - Todos los derechos reservados</p>
+  </footer>
+</body>
 
-    <footer>
-      <p>&copy; 2025 Proyecto Ayuda Rápida - Todos los derechos reservados</p>
-    </footer>
-  </body>
 </html>
